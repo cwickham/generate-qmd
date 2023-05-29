@@ -1,0 +1,16 @@
+{
+  "hash": "d9bbf39af2c86abb5ceff182bd384588",
+  "result": {
+    "markdown": "---\ntitle: Example using knitr\nformat: ipynb\nparams:\n  is_r: true\n---\n\n\n\n::: {.cell}\n\n```{.python .cell-code}\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n\nmpg = sns.load_dataset('mpg')\nsns.scatterplot(data=mpg, x='displacement', y='mpg')\nplt.show()\n```\n\n::: {.cell-output-display}\n![](master_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "master_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

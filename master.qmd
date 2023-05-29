@@ -1,0 +1,32 @@
+---
+title: Example
+format: ipynb
+---
+
+::: {.content-visible when-profile="r"}
+## R
+:::
+
+::: {.content-visible when-profile="python"}
+## Python
+:::
+
+::: {.content-visible when-profile="r"}
+```{r}
+library(ggplot2)
+ggplot(mpg, aes(displ, cty)) +
+  geom_point()
+```
+:::
+
+::: {.content-visible when-profile="python"}
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+mpg = sns.load_dataset('mpg')
+sns.scatterplot(data=mpg, x='displacement', y='mpg')
+plt.show()
+```
+:::

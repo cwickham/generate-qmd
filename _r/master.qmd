@@ -1,0 +1,15 @@
+---
+title: Example
+jupyter: python3
+---
+
+
+## R
+
+
+```{python}
+library(ggplot2)
+ggplot(mpg, aes(displ, cty)) +
+  geom_point()
+```
+

@@ -1,0 +1,16 @@
+{
+  "hash": "a6a1a043cc4165af26859ea9c64ba3bd",
+  "result": {
+    "markdown": "---\ntitle: Example\nformat: ipynb\n---\n\n\n::: {.content-visible when-profile=\"r\"}\n## R\n:::\n\n::: {.content-visible when-profile=\"python\"}\n## Python\n:::\n\n::: {.content-visible when-profile=\"r\"}\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\nggplot(mpg, aes(displ, cty)) +\n  geom_point()\n```\n\n::: {.cell-output-display}\n![](master_files/figure-ipynb/unnamed-chunk-1-1.png)\n:::\n:::\n\n:::\n\n::: {.content-visible when-profile=\"python\"}\n\n::: {.cell}\n\n```{.python .cell-code}\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n\nmpg = sns.load_dataset('mpg')\nsns.scatterplot(data=mpg, x='displacement', y='mpg')\nplt.show()\n```\n\n::: {.cell-output-display}\n![](master_files/figure-ipynb/unnamed-chunk-2-1.png)\n:::\n:::\n\n:::",
+    "supporting": [
+      "master_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

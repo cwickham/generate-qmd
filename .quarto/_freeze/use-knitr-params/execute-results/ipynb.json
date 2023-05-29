@@ -1,0 +1,16 @@
+{
+  "hash": "ab144d9f0869259d0d4ce26844eccd99",
+  "result": {
+    "markdown": "---\ntitle: Example using knitr\nformat: ipynb\nparams:\n  is_r: true\nengine: knitr\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\nggplot(mpg, aes(displ, cty)) +\n  geom_point()\n```\n\n::: {.cell-output-display}\n![](use-knitr-params_files/figure-ipynb/unnamed-chunk-1-1.png)\n:::\n:::\n\n\n",
+    "supporting": [
+      "use-knitr-params_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}
